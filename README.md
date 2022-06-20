@@ -1,5 +1,5 @@
 # what is this project?
-In this project we make a full store website.
+In this project we make a full e-commerce website.
 ## what is use?
 We use the **ReactJs** for this project.
 
