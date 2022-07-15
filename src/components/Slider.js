@@ -1,11 +1,19 @@
-import styled from "styled-components";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
-  const handleClick = (direction) => {};
   const [sliderItems, setSliderItems] = useState(null);
+  const wrapper = useRef(null);
+
+  const handleClick = (direction) => {
+    if (direction === "left") {
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+    } else {
+      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+    }
+  };
+
 
   useEffect(() => {
     const getBanner = async () => {
@@ -14,11 +22,18 @@ const Slider = () => {
         console.log("sorry we cant find data!");
       } else {
         const banners = await res.json();
-        setSliderItems(await banners);
+        if (banners) {
+          setSliderItems(banners);
+        }
       }
     };
     getBanner();
   }, []);
+
+  useEffect(() => {
+    console.log(slideIndex);
+    wrapper.current.style.transform = `translateX(${slideIndex * -100}vw)`;
+  }, [slideIndex]);
 
   return (
     <section className="slider">
@@ -26,11 +41,15 @@ const Slider = () => {
         <div className="arrow arrow-left" onClick={() => handleClick("left")}>
           <ArrowLeftOutlined />
         </div>
-        <div className="wrapper">
+        <div className="wrapper" ref={wrapper}>
           {sliderItems &&
             sliderItems.map((item) => {
               return (
-                <div className="slide" key={item.id} style={{backgroundColor: item.bg}}>
+                <div
+                  className="slide"
+                  key={item.id}
+                  style={{ backgroundColor: item.bg }}
+                >
                   <div className="img-container">
                     <img src={item.img} />
                   </div>

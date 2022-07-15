@@ -108,7 +108,8 @@
 .slider .wrapper {
   height: 100%;
   display: flex;
-  transform: translateX(-200vw);
+  transition: all 0.5s;
+  transform: translateX(0);
 }
 
 .slider .wrapper .slide {
