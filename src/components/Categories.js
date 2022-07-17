@@ -9,6 +9,8 @@ const Categories = () => {
   return (
     <div className="categories">
       <div className="container">
+        {isPending && <div>Loading...</div>}
+        {error && <div>Error! {error}</div>}
         {response &&
           response.map((item) => {
             return <CategoryItem key={item.id} item={item} />;

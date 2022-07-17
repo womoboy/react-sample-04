@@ -15,14 +15,14 @@ const useFetch = (url) => {
       (async () => {
         const res = await fetch(url, { ...option }, signal);
         if (signal.aborted) {
-          setIsPending(true);
+          setIsPending(false);
           throw Error("Fetching data aborted!");
         } else {
           if (!res.ok) {
             throw Error("Sorry we can`t find data!");
           } else {
             const data = await res.json();
-            setIsPending(true);
+            setIsPending(false);
             setResponse(data);
           }
         }
