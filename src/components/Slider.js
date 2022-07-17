@@ -51,7 +51,7 @@ const Slider = () => {
                   style={{ backgroundColor: item.bg }}
                 >
                   <div className="img-container">
-                    <img src={item.img} />
+                    <img src={`http://localhost:3000/library/${item.img}`} />
                   </div>
                   <div className="info-container">
                     <h2>{item.title}</h2>

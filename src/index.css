@@ -108,7 +108,7 @@
 .slider .wrapper {
   height: 100%;
   display: flex;
-  transition: all 0.5s;
+  transition: all 1.5s ease;
   transform: translateX(0);
 }
 
@@ -149,4 +149,14 @@
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+}
+
+/*categories*/
+.categories .container {
+  display: flex;
+  padding: 20px;
+}
+
+.category-item .container {
+  color: black;
 }
