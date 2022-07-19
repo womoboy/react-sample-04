@@ -25,23 +25,23 @@
   "categories": [
     {
       "id": 1,
-      "img": "image1.jpg",
-      "title": "image1-title"
+      "img": "item1.jpg",
+      "title": "item1-title"
     },
     {
       "id": 2,
-      "img": "image2.jpg",
-      "title": "image2-title"
+      "img": "item2.jpg",
+      "title": "item2-title"
     },
     {
       "id": 3,
-      "img": "image3.jpg",
-      "title": "image3-title"
+      "img": "item3.jpg",
+      "title": "item3-title"
     },
     {
       "id": 4,
-      "img": "image4.jpg",
-      "title": "image4-title"
+      "img": "item4.jpg",
+      "title": "item4-title"
     }
   ]
 }

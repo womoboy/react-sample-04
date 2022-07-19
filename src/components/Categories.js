@@ -8,6 +8,7 @@ const Categories = () => {
 
   return (
     <div className="categories">
+      <h2 className="title">Categories</h2>
       <div className="container">
         {isPending && <div>Loading...</div>}
         {error && <div>Error! {error}</div>}
