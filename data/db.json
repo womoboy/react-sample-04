@@ -43,5 +43,47 @@
       "img": "item4.jpg",
       "title": "item4-title"
     }
+  ],
+  "popularProducts": [
+    {
+      "id": 1,
+      "img": "shirt1.png",
+      "alt": "shirt1"
+    },
+    {
+      "id": 2,
+      "img": "shirt2.png",
+      "alt": "shirt2"
+    },
+    {
+      "id": 3,
+      "img": "shirt3.png",
+      "alt": "shirt3"
+    },
+    {
+      "id": 4,
+      "img": "shirt4.png",
+      "alt": "shirt4"
+    },
+    {
+      "id": 5,
+      "img": "shirt5.png",
+      "alt": "shirt5"
+    },
+    {
+      "id": 6,
+      "img": "shirt6.png",
+      "alt": "shirt6"
+    },
+    {
+      "id": 7,
+      "img": "shirt7.png",
+      "alt": "shirt7"
+    },
+    {
+      "id": 8,
+      "img": "shirt8.png",
+      "alt": "shirt8"
+    }
   ]
 }
