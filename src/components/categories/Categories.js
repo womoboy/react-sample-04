@@ -1,5 +1,5 @@
-import useFetch from "../custom/useFetch";
-import CategoryItem from "./CategoryItem";
+import useFetch from "../../custom/useFetch";
+import CategoryItem from "../categoryItem/CategoryItem";
 import './Categories.css';
 
 const Categories = () => {

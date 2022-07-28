@@ -1,5 +1,5 @@
-import useFetch from "../custom/useFetch";
-import Product from "../components/Product";
+import useFetch from "../../custom/useFetch";
+import Product from "../../components/product/Product";
 import './Products.css'
 
 const Products = () => {
