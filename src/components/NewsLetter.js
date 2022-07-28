@@ -1,4 +1,5 @@
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import './Newsletter.css';
 
 const Newsletter = () => {
     return (  

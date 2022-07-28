@@ -1,9 +1,9 @@
-import './ProductList.css';
+import Navbar from '../components/Navbar';
 
 const ProductList = () => {
     return (  
         <div className="product-list">
-            <div>this is productlist</div>
+            <Navbar />
         </div>
     );
 }

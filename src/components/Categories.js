@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
 import useFetch from "../custom/useFetch";
 import CategoryItem from "./CategoryItem";
+import './Categories.css';
 
 const Categories = () => {
   const url = "http://localhost:8000/categories";

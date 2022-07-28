@@ -1,6 +1,7 @@
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SearchOutlined from '@mui/icons-material/SearchOutlined';
 import FavoriteBorderOutlined from '@mui/icons-material/FavoriteBorderOutlined'
+import './Product.css';
 
 const Product = ({item}) => {
     return (  

@@ -1,3 +1,5 @@
+import './CategoryItem.css';
+
 const CategoryItem = ({ item }) => {
   return (
     <div className="category-item">

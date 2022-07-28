@@ -1,0 +1,83 @@
+.slider .container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider .container .arrow {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(229, 173, 173, 0.302);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s;
+  }
+  
+  .slider .container .arrow:hover {
+    color: white;
+    background-color: rgba(229, 173, 173, 0.593);
+  }
+  
+  .slider .container .arrow-left {
+    left: 10px;
+  }
+  
+  .slider .container .arrow-right {
+    right: 10px;
+  }
+  
+  .slider .wrapper {
+    height: 100%;
+    display: flex;
+    transition: all 1.5s ease;
+    transform: translateX(0);
+  }
+  
+  .slider .wrapper .slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider .wrapper .slide .img-container {
+    overflow: hidden;
+    height: 100%;
+    flex: 1;
+  }
+  
+  .slider .slide .img-container img {
+    height: 100%;
+  }
+  
+  .slider .slide .info-container {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .slider .slide .info-container h2 {
+    font-size: 70px;
+  }
+  .slider .slide .info-container p {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+  
+  .slider .slide .info-container button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }

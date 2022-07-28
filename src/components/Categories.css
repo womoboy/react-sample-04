@@ -1,0 +1,15 @@
+.categories {
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.categories > .title {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 4rem;
+  width: fit-content;
+  margin-inline: auto;
+}
+.categories .container {
+  display: flex;
+}

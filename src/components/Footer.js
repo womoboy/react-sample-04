@@ -4,6 +4,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import RoomIcon from '@mui/icons-material/Room';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
+import './Footer.css';
 
 const Footer = () => {
   return (

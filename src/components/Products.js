@@ -1,5 +1,6 @@
 import useFetch from "../custom/useFetch";
 import Product from "../components/Product";
+import './Products.css'
 
 const Products = () => {
   const url = "http://localhost:8000/popularProducts";
