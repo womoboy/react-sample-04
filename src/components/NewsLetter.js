@@ -1,9 +1,18 @@
-const NewsLetter = () => {
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+
+const Newsletter = () => {
     return (  
-        <div className="news-letter">
-            
+        <div className="newsletter">
+            <h2 className="title">Newsletter</h2>
+            <div className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div className="input-container">
+                <input type="text" placeholder='Your email'></input>
+                <button>
+                    <SendOutlinedIcon />
+                </button>
+            </div>
         </div>
     );
 }
  
-export default NewsLetter;
+export default Newsletter;

@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="center">
-            <h2>LAMA.</h2>
+            <h2>TESTLOGO.</h2>
           </div>
           <div className="right">
             <div className="menu-item">REGISTER</div>
