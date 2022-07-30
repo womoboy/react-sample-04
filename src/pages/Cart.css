@@ -1,0 +1,30 @@
+.cart-page {
+
+}
+
+.cart-page .wrapper {
+    padding: 20px;
+}
+
+.cart-page .wrapper h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.cart-page .wrapper .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-page .wrapper .top button {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart-page .wrapper .top-texts span {
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 10px;
+}

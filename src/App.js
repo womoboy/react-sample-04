@@ -1,10 +1,9 @@
-import Product from './pages/Product';
-import Register from './pages/Register';
+import Cart from './pages/Cart';
 
 const App = () => {
     return (
         <div className="App">
-            <Register />
+            <Cart />
         </div>
     );
 }

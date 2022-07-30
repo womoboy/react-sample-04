@@ -4,13 +4,13 @@ const Login = () => {
   return (
     <div className="login-page">
       <div className="wrapper">
-        <h1 className="title">CREATE AN ACCOUNT</h1>
+        <h1 className="title">LOGIN TO YOUR ACCOUT</h1>
         <form>
           <input type="text" placeholder="username" />
           <input type="text" placeholder="password" />
           <button>LOGIN</button>
-          <link>DO NO YOU REMEMBER THE PASSWORD?</link>
-          <link>CREATE NEW ACCOUNT</link>
+          <a href='#'>DO NO YOU REMEMBER THE PASSWORD?</a>
+          <a href='#'>CREATE NEW ACCOUNT</a>
         </form>
       </div>
     </div>

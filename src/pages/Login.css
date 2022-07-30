@@ -1,0 +1,57 @@
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("../../public/library/login-bk.svg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-page .wrapper {
+      padding: 20px;
+      width: 25%;
+      background-color: whitesmoke;
+  }
+  
+  .login-page .title {
+      font-size: 24px;
+      font-weight: 300;
+  }
+  
+  .login-page .wrapper form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .login-page input {
+      flex: 1;
+      min-width: 40%;
+      margin: 10px 0;
+      padding: 10px;
+  }
+  
+  .login-page .wrapper button {
+      width: 40%;
+      border: none;
+      padding: 15px 20px;
+      background-color: teal;
+      color: white;
+      cursor: pointer;
+      margin-bottom: 10px;
+  }
+  
+  .login-page .wrapper button:hover {
+      background-color: rgb(5, 193, 193);
+  }
+
+  .login-page .wrapper a {
+    margin: 5px 0;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
