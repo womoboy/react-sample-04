@@ -1,0 +1,53 @@
+.register-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../public/library/sign-up-bk.svg") center no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-page .wrapper {
+    padding: 20px;
+    width: 40%;
+    background-color: whitesmoke;
+}
+
+.register-page .title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.register-page .wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register-page input {
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0 0;
+    padding: 10px;
+}
+
+.register-page .wrapper .agreement {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.register-page .wrapper button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.register-page .wrapper button:hover {
+    background-color: rgb(5, 193, 193);
+}
